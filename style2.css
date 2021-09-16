@@ -1,4 +1,65 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+
+
+td:nth-child(7) img{
+    width: 2rem;
+    height: 2rem;
+}
+
+td:nth-child(7){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -97,8 +158,10 @@ table tr td:nth-child(2) img{
 
 
 
+
 tr:hover{
     background-color: white;
     box-shadow: 0 0 5px grey;
 }
+
 
