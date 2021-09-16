@@ -34,6 +34,7 @@ table:not(.noPadding){
 
 .noLine{
     border-bottom: none;
+    text-align: right;
 }
 
 td{
@@ -59,10 +60,7 @@ td:nth-child(7) img{
     
 }
 
-td:nth-child(7){
-    color: red;
-    
-}
+
 
 
 
@@ -134,14 +132,16 @@ tr:not(:first-child):hover{
 
 
 /*Angela*/
-tr{
+
+
+td :last-child{
     position: relative;
 }
 
 .hidden{
     visibility: hidden;
     position: absolute;
-    top: 50px;
+    top: 100%;
     background-color: white;
     list-style-type: none;
     z-index: 10;
@@ -153,9 +153,13 @@ tr{
     z-index: 10;
     width: 20px;
 }
-.more:hover + .hidden{
+.parenthover:hover .hidden{
 
     visibility: visible;
+}
+
+.parenthover{
+    position: absolute;
 }
 
 
