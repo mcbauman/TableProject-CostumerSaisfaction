@@ -7,7 +7,7 @@
 
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 body{
@@ -20,7 +20,7 @@ body{
 }
 
 img{
-    width: 25px;
+    width: 10px;
 }
 
 table{
@@ -32,6 +32,7 @@ table{
 td{
     padding: 1rem;
     border-bottom: 1px solid black;
+    text-align: left;
 }
 
 th{
@@ -45,8 +46,8 @@ td:first-child img{
 
 
 td:nth-child(7) img{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+ 
     
     
 }
@@ -151,7 +152,12 @@ tr{
 }
 
 
-
+p{
+    display: inline;
+    vertical-align: top;
+    margin-left: 5px;
+    
+}
 
 
 
