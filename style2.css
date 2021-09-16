@@ -10,6 +10,9 @@ html{
     font-size: 10px;
 }
 
+body{
+    background-color: #c6c6c6;
+}
 
 
 td:nth-child(7) img{
@@ -25,138 +28,10 @@ td:nth-child(7){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* /////Angela\\\\\\ */
 table tr td:nth-child(2) img{
     border: 1px solid grey;
     border-radius: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 tr:hover{
