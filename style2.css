@@ -34,7 +34,7 @@ table tr td:nth-child(2) img{
 }
 
 
-tr:hover{
+tr:not(:first-child):hover{
     background-color: white;
     box-shadow: 0 0 5px grey;
 }
