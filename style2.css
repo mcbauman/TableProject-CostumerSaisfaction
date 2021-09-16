@@ -23,10 +23,17 @@ img{
     width: 25px;
 }
 
-table{
+table:not(.noPadding){
     padding: 2rem;
     font-size: 1.3rem;
 
+}
+.noPadding{
+    padding:0;
+}
+
+.noLine{
+    border-bottom: none;
 }
 
 td{
