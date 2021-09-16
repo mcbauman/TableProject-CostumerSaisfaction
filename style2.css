@@ -47,8 +47,58 @@
 
 
 
+
 /* /////Angela\\\\\\ */
 table tr td:nth-child(2) img{
     border: 1px solid grey;
     border-radius: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tr:hover{
+    background-color: white;
+    box-shadow: 0 0 5px grey;
+}
+
