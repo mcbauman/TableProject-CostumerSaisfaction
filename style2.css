@@ -19,23 +19,51 @@ body{
     padding-top: 10rem;
 }
 
+img{
+    width: 25px;
+}
+
+table{
+    padding: 2rem;
+    font-size: 1.3rem;
+
+}
+
+td{
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+th{
+    padding: 1rem;
+}
+
+td:first-child img{
+    width: 16px;
+}
+
+
 
 td:nth-child(7) img{
-    width: 2rem;
-    height: 2rem;
+    width: 25px;
+    height: 25px;
+    
+    
 }
 
 td:nth-child(7){
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: red;
+    
 }
+
+
 
 
 table tr td:nth-child(2) img{
     border: 1px solid grey;
     border-radius: 50%;
+    width: 26px;
+    height: 26px;
 }
 
 
