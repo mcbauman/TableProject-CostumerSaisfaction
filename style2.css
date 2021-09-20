@@ -255,36 +255,72 @@ table, tr, td, th{
 
 
 
+/*Henrik/*
+
+.dropdown-trigger {
+    position:relative;
+}
+.dropdown{
+    position: absolute;
+    z-index: 4;
+    top:100%;
+    right: 10px;
+    background-color:white;
+    box-shadow: 0 0 10px #f3f3f3;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10%);
+    transition: 0.5s;
+}
+.dropdown-trigger:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-item:first-child a {
+    border-radius: 4px 4.dropdown-trigger {
+    position:relative;
+}
+.dropdown{
+    position: absolute;
+    z-index: 4;
+    top:100%;
+    right: 10px;
+    background-color:white;
+    box-shadow: 0 0 10px #f3f3f3;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10%);
+    transition: 0.5s;
+}
+.dropdown-trigger:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-item:first-child a {
+    border-radius: 5px 5px 0 0;
+}
+.dropdown-item:last-child a {
+    border-radius: 0 0 5px 5px;
+}
+
+.dropdown-item a{
+    display:block;
+    padding: 9px 18px;
+    color:inherit;
+    background-color: transparent;
+    border-bottom: 1px solid  #e6e6e6;
+    transition: all 0.3s;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Henrik*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.dropdown{
+    position: absolute;
+    z-index: 4;
+    top:100%;
+    right: 10px;
+    backgroun
